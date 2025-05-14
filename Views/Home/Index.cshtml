@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BookDTO>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    @if (Model == null)
+    {
+        <h1>"kho noi"</h1>
+    }
+    else 
+    {
+        @foreach (var book in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">Author: @book.Author</p>
+                        <p class="card-text">Price: $@book.Price</p>
+                        <a href="/Book/Details?id=@book.Id" class="btn btn-primary">View Details</a>
+                        <a href="/Cart/AddToCart?id=@book.Id" class="btn btn-success">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    
+</div>

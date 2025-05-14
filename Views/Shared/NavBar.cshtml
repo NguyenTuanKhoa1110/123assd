@@ -1,0 +1,62 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Online Bookstore</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Book/Index">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Cart/Index">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Order/Index">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Account/Profile">Profile</a>
+                </li>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Index">Admin</a>
+                    </li>
+                }
+            </ul>
+
+            <form class="d-flex" method="get" action="/Book/Search">
+                <input class="form-control me-2" type="search" name="query" placeholder="Search books..."
+                       aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <form class="d-flex me-3" method="get" action="/Book/Search">
+                <input class="form-control me-2" type="search" name="query" placeholder="Search books..."
+                       aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="d-flex align-items-center">
+                    <span class="navbar-text me-2">
+                        Hello, @User.Identity.Name
+                    </span>
+                    <a class="btn btn-outline-danger btn-sm" href="/Account/Logout">Logout</a>
+                </div>
+            }
+            else
+            {
+                <a class="btn btn-outline-primary" href="/Account/Login">Login</a>
+            }
+
+        </div>
+    </div>
+</nav>

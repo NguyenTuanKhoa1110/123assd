@@ -1,0 +1,60 @@
+﻿@model CartDTO
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h1>Checkout</h1>
+
+@if (Model.Items != null && Model.Items.Any())
+{
+    <h3>Order Summary</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.BookTitle</td>
+                    <td>@item.Quantity</td>
+                    <td>$@item.Price</td>
+                    <td>$@(item.Quantity * item.Price)</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Grand Total</strong></td>
+                <td><strong>$@Model.Items.Sum(item => item.Quantity * item.Price)</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Shipping Information</h3>
+    <form method="post" action="/Cart/Checkout">
+        <div class="mb-3">
+            <label for="address" class="form-label">Shipping Address</label>
+            <textarea class="form-control" id="address" name="Address" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="paymentMethod" class="form-label">Payment Method</label>
+            <select class="form-select" id="paymentMethod" name="PaymentMethod" required>
+                <option value="CreditCard">Credit Card</option>
+                <option value="CashOnDelivery">Cash on Delivery</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Place Order</button>
+        <a href="/Cart/Index" class="btn btn-secondary">Back to Cart</a>
+    </form>
+}
+else
+{
+    <p>Your cart is empty. <a href="/Book/Index">Continue shopping</a>.</p>
+}

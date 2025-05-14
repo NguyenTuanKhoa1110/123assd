@@ -1,0 +1,19 @@
+﻿@model BookDTO
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h1>Book Details</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text"><strong>Author:</strong> @Model.Author</p>
+        <p class="card-text"><strong>Price:</strong> $@Model.Price</p>
+        <p class="card-text"><strong>Category:</strong> @Model.Category</p>
+        <p class="card-text"><strong>Description:</strong> @Model.Description</p>
+        <a href="/Cart/AddToCart?id=@Model.Id" class="btn btn-success">Add to Cart</a>
+        <a href="/Book/Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@model OrderDTO
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h1>Order Details</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Order #@Model.Id</h5>
+        <p class="card-text"><strong>Customer:</strong> @Model.User.Username</p>
+        <p class="card-text"><strong>Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</p>
+        <p class="card-text"><strong>Total:</strong> $@Model.TotalAmount</p>
+        <p class="card-text"><strong>Status:</strong> @Model.Status</p>
+        <p class="card-text"><strong>Shipping Address:</strong> @Model.ShippingAddress</p>
+        <p class="card-text"><strong>Payment Method:</strong> @Model.PaymentMethod</p>
+
+        <h6>Items</h6>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderItems)
+                {
+                    <tr>
+                        <td>@item.Book.Title</td>
+                        <td>@item.Quantity</td>
+                        <td>$@item.Book.Price</td>
+                        <td>$@(item.Quantity * item.Book.Price)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="/Order/Index" class="btn btn-secondary">Back to Orders</a>
+    </div>
+</div>

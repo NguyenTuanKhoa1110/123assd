@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BookDTO>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h1>Search Results</h1>
+
+@if (Model.Any())
+{
+    <div class="row">
+        @foreach (var book in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">Author: @book.Author</p>
+                        <p class="card-text">Price: $@book.Price</p>
+                        <a href="/Book/Details?id=@book.Id" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No books found.</p>
+}

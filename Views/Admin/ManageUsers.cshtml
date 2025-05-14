@@ -1,0 +1,39 @@
+﻿@model List<W3_test.Domain.DTOs.AppUserDTO>
+@{
+    ViewData["Title"] = "Manage Users";
+    var userRoles = ViewBag.UserRoles as Dictionary<Guid, string>;
+}
+
+<h2>Manage Users</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+else if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Current Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            var currentRole = userRoles.ContainsKey(user.Id) ? userRoles[user.Id] : "No Role";
+            <tr>
+                <td>@user.Email</td>
+                <td>@currentRole</td>
+                <td>
+                    <a asp-action="EditUser" asp-route-id="@user.Id" class="btn btn-sm btn-warning">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

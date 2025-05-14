@@ -1,0 +1,22 @@
+﻿@model OrderDTO
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<h1>Order Confirmation</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Thank You for Your Order!</h5>
+        <p class="card-text">Your order has been successfully placed.</p>
+        <p class="card-text"><strong>Order ID:</strong> @Model.Id</p>
+        <p class="card-text"><strong>Date:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</p>
+        <p class="card-text"><strong>Total:</strong> $@Model.TotalAmount</p>
+        <p class="card-text"><strong>Status:</strong> @Model.Status</p>
+        <p class="card-text"><strong>Shipping Address:</strong> @Model.ShippingAddress</p>
+        <p class="card-text"><strong>Payment Method:</strong> @Model.PaymentMethod</p>
+        <a href="/Order/OrderDetails?id=@Model.Id" class="btn btn-primary">View Order Details</a>
+        <a href="/Book/Index" class="btn btn-secondary">Continue Shopping</a>
+    </div>
+</div>

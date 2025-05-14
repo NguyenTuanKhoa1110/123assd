@@ -1,0 +1,39 @@
+﻿@model BookDTO
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<h1>Edit Book</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" action="/Admin/EditBook">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="Title" value="@Model.Title" required />
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label">Author</label>
+                <input type="text" class。对于
+                       class="form-control" id="author" name="Author" value="@Model.Author" required />
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="number" step="0.01" class="form-control" id="price" name="Price" value="@Model.Price" required />
+            </div>
+            <div class="mb-3">
+                <label for="category" class="form-label">Category</label>
+                <select class="form-select" id="category" name="Category" required>
+                    <option value="Fiction" selected="@(Model.Category == "Fiction")">Fiction</option>
+                    <option value="NonFiction" selected="@(Model.Category == "NonFiction")">Non-Fiction</option>
+                    <option value="Science" selected="@(Model.Category == "Science")">Science</option>
+                    <option value="History" selected="@(Model.Category == "History")">History</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <a href="/Admin/ManageBooks" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

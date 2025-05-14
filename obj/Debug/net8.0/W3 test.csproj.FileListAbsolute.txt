@@ -1,0 +1,760 @@
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.csproj.AssemblyReference.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.AssemblyInfoInputs.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.AssemblyInfo.cs
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.csproj.CoreCompileInputs.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.MvcApplicationPartsAssemblyInfo.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cs
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.sourcelink.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\appsettings.Development.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\appsettings.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.staticwebassets.runtime.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.staticwebassets.endpoints.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.exe
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.deps.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.runtimeconfig.json
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\W3 test.pdb
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\AutoMapper.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Azure.Core.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Azure.Identity.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Humanizer.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.ClientModel.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.CodeDom.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Memory.Data.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Text.Json.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\source\repos\W3 test\W3 test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\scopedcss\bundle\W3 test.styles.css
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\scopedcss\projectbundle\W3 test.bundle.scp.css
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets\msbuild.build.W3 test.props
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.W3 test.props
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.W3 test.props
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.csproj.Up2Date
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.dll
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\refint\W3 test.dll
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.pdb
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\W3 test.genruntimeconfig.cache
+D:\source\repos\W3 test\W3 test\obj\Debug\net8.0\ref\W3 test.dll
+D:\repos\W3n\bin\Debug\net8.0\appsettings.Development.json
+D:\repos\W3n\bin\Debug\net8.0\appsettings.json
+D:\repos\W3n\bin\Debug\net8.0\W3 test.staticwebassets.runtime.json
+D:\repos\W3n\bin\Debug\net8.0\W3 test.staticwebassets.endpoints.json
+D:\repos\W3n\bin\Debug\net8.0\W3 test.exe
+D:\repos\W3n\bin\Debug\net8.0\W3 test.deps.json
+D:\repos\W3n\bin\Debug\net8.0\W3 test.runtimeconfig.json
+D:\repos\W3n\bin\Debug\net8.0\W3 test.dll
+D:\repos\W3n\bin\Debug\net8.0\W3 test.pdb
+D:\repos\W3n\bin\Debug\net8.0\AutoMapper.dll
+D:\repos\W3n\bin\Debug\net8.0\Azure.Core.dll
+D:\repos\W3n\bin\Debug\net8.0\Azure.Identity.dll
+D:\repos\W3n\bin\Debug\net8.0\Humanizer.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\repos\W3n\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\repos\W3n\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\repos\W3n\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\repos\W3n\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\repos\W3n\bin\Debug\net8.0\System.ClientModel.dll
+D:\repos\W3n\bin\Debug\net8.0\System.CodeDom.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\repos\W3n\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repos\W3n\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Memory.Data.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Text.Json.dll
+D:\repos\W3n\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\repos\W3n\obj\Debug\net8.0\W3 test.csproj.AssemblyReference.cache
+D:\repos\W3n\obj\Debug\net8.0\W3 test.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\W3n\obj\Debug\net8.0\W3 test.AssemblyInfoInputs.cache
+D:\repos\W3n\obj\Debug\net8.0\W3 test.AssemblyInfo.cs
+D:\repos\W3n\obj\Debug\net8.0\W3 test.csproj.CoreCompileInputs.cache
+D:\repos\W3n\obj\Debug\net8.0\W3 test.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cache
+D:\repos\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cs
+D:\repos\W3n\obj\Debug\net8.0\W3 test.sourcelink.json
+D:\repos\W3n\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\repos\W3n\obj\Debug\net8.0\scopedcss\bundle\W3 test.styles.css
+D:\repos\W3n\obj\Debug\net8.0\scopedcss\projectbundle\W3 test.bundle.scp.css
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets.build.json
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets.development.json
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssets.props
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.build.W3 test.props
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.W3 test.props
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.W3 test.props
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets.pack.json
+D:\repos\W3n\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\repos\W3n\obj\Debug\net8.0\W3 test.csproj.Up2Date
+D:\repos\W3n\obj\Debug\net8.0\W3 test.dll
+D:\repos\W3n\obj\Debug\net8.0\refint\W3 test.dll
+D:\repos\W3n\obj\Debug\net8.0\W3 test.pdb
+D:\repos\W3n\obj\Debug\net8.0\W3 test.genruntimeconfig.cache
+D:\repos\W3n\obj\Debug\net8.0\ref\W3 test.dll
+D:\source\repos\W3n\bin\Debug\net8.0\appsettings.Development.json
+D:\source\repos\W3n\bin\Debug\net8.0\appsettings.json
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.staticwebassets.runtime.json
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.staticwebassets.endpoints.json
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.exe
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.deps.json
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.runtimeconfig.json
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.dll
+D:\source\repos\W3n\bin\Debug\net8.0\W3 test.pdb
+D:\source\repos\W3n\bin\Debug\net8.0\AutoMapper.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Azure.Core.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Azure.Identity.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Humanizer.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\repos\W3n\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.ClientModel.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.CodeDom.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Memory.Data.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Text.Json.dll
+D:\source\repos\W3n\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\source\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\source\repos\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.csproj.AssemblyReference.cache
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.AssemblyInfoInputs.cache
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.AssemblyInfo.cs
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.csproj.CoreCompileInputs.cache
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.MvcApplicationPartsAssemblyInfo.cache
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cache
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cs
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.sourcelink.json
+D:\source\repos\W3n\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\source\repos\W3n\obj\Debug\net8.0\scopedcss\bundle\W3 test.styles.css
+D:\source\repos\W3n\obj\Debug\net8.0\scopedcss\projectbundle\W3 test.bundle.scp.css
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.build.W3 test.props
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.W3 test.props
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.W3 test.props
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\repos\W3n\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.csproj.Up2Date
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.dll
+D:\source\repos\W3n\obj\Debug\net8.0\refint\W3 test.dll
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.pdb
+D:\source\repos\W3n\obj\Debug\net8.0\W3 test.genruntimeconfig.cache
+D:\source\repos\W3n\obj\Debug\net8.0\ref\W3 test.dll
+D:\GIthub\W3n\bin\Debug\net8.0\appsettings.Development.json
+D:\GIthub\W3n\bin\Debug\net8.0\appsettings.json
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.staticwebassets.runtime.json
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.staticwebassets.endpoints.json
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.exe
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.deps.json
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.runtimeconfig.json
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.dll
+D:\GIthub\W3n\bin\Debug\net8.0\W3 test.pdb
+D:\GIthub\W3n\bin\Debug\net8.0\AutoMapper.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Azure.Core.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Azure.Identity.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Humanizer.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GIthub\W3n\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.ClientModel.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.CodeDom.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Memory.Data.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Text.Json.dll
+D:\GIthub\W3n\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\GIthub\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\GIthub\W3n\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.csproj.AssemblyReference.cache
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.AssemblyInfoInputs.cache
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.AssemblyInfo.cs
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.csproj.CoreCompileInputs.cache
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.MvcApplicationPartsAssemblyInfo.cache
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cache
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.RazorAssemblyInfo.cs
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.sourcelink.json
+D:\GIthub\W3n\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GIthub\W3n\obj\Debug\net8.0\scopedcss\bundle\W3 test.styles.css
+D:\GIthub\W3n\obj\Debug\net8.0\scopedcss\projectbundle\W3 test.bundle.scp.css
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets.build.json
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets.development.json
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets\msbuild.W3 test.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets\msbuild.build.W3 test.props
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.W3 test.props
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.W3 test.props
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets.pack.json
+D:\GIthub\W3n\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.csproj.Up2Date
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.dll
+D:\GIthub\W3n\obj\Debug\net8.0\refint\W3 test.dll
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.pdb
+D:\GIthub\W3n\obj\Debug\net8.0\W3 test.genruntimeconfig.cache
+D:\GIthub\W3n\obj\Debug\net8.0\ref\W3 test.dll

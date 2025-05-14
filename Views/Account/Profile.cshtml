@@ -1,0 +1,16 @@
+﻿@model AppUserDTO
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Your Profile</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Username</h5>
+        <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+        <a href="/Account/EditProfile" class="btn btn-primary">Edit Profile</a>
+        <a href="/Order/OrderHistory" class="btn btn-secondary">View Order History</a>
+    </div>
+</div>

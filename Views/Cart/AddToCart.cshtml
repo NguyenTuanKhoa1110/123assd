@@ -1,0 +1,24 @@
+﻿@model CartItemDTO
+
+@{
+    ViewData["Title"] = "Add to Cart";
+}
+
+<h1>Add to Cart</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Book.Title</h5>
+        <p class="card-text"><strong>Author:</strong> @Model.Book.Author</p>
+        <p class="card-text"><strong>Price:</strong> $@Model.Book.Price</p>
+        <form asp-controller="Cart" asp-action="AddToCart" method="post">
+            <input type="hidden" name="bookId" value="@Model.Book.Id" />
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1" required />
+            </div>
+            <button type="submit" class="btn btn-success">Add to Cart</button>
+            <a asp-controller="Book" asp-action="Details" asp-route-id="@Model.Book.Id" class="btn btn-secondary">Back to Book</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+﻿@model CartDTO
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<h1>Your Cart</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <form method="get" action="/Cart/Index">
+            <label for="statusFilter">Filter by Status:</label>
+            <select name="status" id="statusFilter" class="form-select" onchange="this.form.submit()">
+                <option value="">All</option>
+                <option value="Available">Available</option>
+                <option value="OutOfStock">Out of Stock</option>
+            </select>
+        </form>
+    </div>
+</div>
+
+@if (Model.Items != null && Model.Items.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.BookTitle</td>
+                    <td>
+                        <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="d-flex">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                            <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control form-control-sm me-2" style="width: 80px;" />
+                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                        </form>
+                    </td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@((item.Quantity * item.Price).ToString("C"))</td>
+                    <td>
+                        <form asp-controller="Cart" asp-action="RemoveFromCart" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Cart/Checkout" class="btn btn-primary">Proceed to Checkout</a>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}

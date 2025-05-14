@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BookDTO>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h1>Books</h1>
+
+<div class="row">
+    @foreach (var book in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                @if (string.IsNullOrEmpty(book.ImageUrl))
+                {
+                    <p>No image available (Debug: @book.ImageUrl)</p>
+                }
+                else
+                {
+                    <img src="@book.ImageUrl" class="card-img-top" alt="@book.Title" style="height: 200px; object-fit: cover;" />
+                }
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@book.Title</h5>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <div class="mt-auto">
+                        <a asp-controller="Book" asp-action="Details" asp-route-id="@book.Id" class="btn btn-primary">View Details</a>
+                        <form asp-controller="Cart" asp-action="AddToCart" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@book.Id" />
+                            <button type="submit" class="btn btn-success">Add to Cart</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

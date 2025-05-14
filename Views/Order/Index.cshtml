@@ -1,0 +1,50 @@
+﻿@model IEnumerable<OrderDTO>
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h1>Your Orders</h1>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <form method="get" action="/Order/Index">
+            <label for="statusFilter">Filter by Status:</label>
+            <select name="status" id="statusFilter" class="form-select" onchange="this.form.submit()">
+                <option value="">All</option>
+                <option value="Pending">Pending</option>
+                <option value="Shipped">Shipped</option>
+                <option value="Delivered">Delivered</option>
+                <option value="Cancelled">Cancelled</option>
+            </select>
+        </form>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.User.Username</td>
+                <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
+                <td>$@order.TotalAmount</td>
+                <td>@order.Status</td>
+                <td>
+                    <a href="/Order/Details?id=@order.Id" class="btn btn-primary btn-sm">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
