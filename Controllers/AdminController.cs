@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace W3_test.Controllers
 {
-	[Authorize(Roles = "Admin,Staff ")]
+	[Authorize(Roles = "Admin,Staff")]
 	public class AdminController : Controller
 	{
 		private readonly IBookRepository _bookRepository;
@@ -48,9 +48,11 @@ namespace W3_test.Controllers
 		}
 
 		[HttpGet]
+		
 		public IActionResult CreateBook() => View();
 
 		[HttpPost]
+		[Authorize(Roles = "Admin")]
 		public async Task<IActionResult> CreateBook(Book model, IFormFile ImageFile)
 		{
 			if (!ModelState.IsValid)
@@ -116,6 +118,7 @@ namespace W3_test.Controllers
 		}
 
 		[HttpPost]
+		[Authorize(Roles = "Admin")]
 		public async Task<IActionResult> DeleteBook(Guid id)
 		{
 			var success = await _bookRepository.DeleteAsync(id);
@@ -328,7 +331,7 @@ namespace W3_test.Controllers
                 return RedirectToAction(nameof(ManageUsers));
             }
 
-            // Không cho tự gán role cho chính mình nếu muốn
+            
             if (user.Id.ToString() == _userManager.GetUserId(User))
             {
                 TempData["Error"] = "You cannot change your own role.";

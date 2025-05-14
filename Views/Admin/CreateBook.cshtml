@@ -6,54 +6,57 @@
 
 <h2>Create Book</h2>
 
-<form asp-action="CreateBook" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label asp-for="Title" class="control-label"></label>
-        <input asp-for="Title" class="form-control" />
-        
-    </div>
+@if (User.IsInRole("Admin"))
+{
+    <form asp-action="CreateBook" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Title" class="control-label"></label>
+            <input asp-for="Title" class="form-control" />
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Author" class="control-label"></label>
-        <input asp-for="Author" class="form-control" />
-        
+        <div class="form-group">
+            <label asp-for="Author" class="control-label"></label>
+            <input asp-for="Author" class="form-control" />
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Description" class="control-label"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
-        
-    </div>
+        <div class="form-group">
+            <label asp-for="Description" class="control-label"></label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Price" class="control-label"></label>
-        <input asp-for="Price" class="form-control" />
-        
-    </div>
+        <div class="form-group">
+            <label asp-for="Price" class="control-label"></label>
+            <input asp-for="Price" class="form-control" />
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Stock" class="control-label"></label>
-        <input asp-for="Stock" class="form-control" />
-        
-    </div>
-    <div class="form-group">
-        <label asp-for="Category" class="control-label"></label>
-        <input asp-for="Category" class="form-control" />
-        
-    </div>
-    
-    <div class="form-group">
-        <label class="control-label">Image</label>
-        <input type="file" name="ImageFile" class="form-control" />
-        <span class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Stock" class="control-label"></label>
+            <input asp-for="Stock" class="form-control" />
+        </div>
 
-    <button type="submit" class="btn btn-primary">Create</button>
-</form>
+        <div class="form-group">
+            <label asp-for="Category" class="control-label"></label>
+            <input asp-for="Category" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Image</label>
+            <input type="file" name="ImageFile" class="form-control" />
+            <span class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+}
+else
+{
+    <div class="alert alert-danger">
+        You do not have permission to access this page.
+    </div>
+}
 
 <a href="@Url.Action("ManageBooks", "Admin")" class="btn btn-secondary">Back to List</a>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @await Html.PartialAsync("_ValidationScriptsPartial")
 }
