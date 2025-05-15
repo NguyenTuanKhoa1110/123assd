@@ -40,6 +40,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 //smtp
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
 var app = builder.Build();
+builder.Services.AddMemoryCache();
+
 
 // Thực hiện seed dữ liệu (roles và admin user)
 using (var scope = app.Services.CreateScope())
@@ -74,7 +76,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
 	name: "default",
-	pattern: "{controller=Home}/{action=Index}/{id?}");
+	pattern: "{controller=Account}/{action=Login}/{id?}");
 app.MapControllerRoute(
 	name: "account",
 	pattern: "Account/{action=Login}/{id?}",

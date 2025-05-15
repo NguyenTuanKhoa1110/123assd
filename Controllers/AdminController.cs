@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using W3_test.Data.Entities;
+using W3_test.Domain.DTOs;
 using W3_test.Domain.Models;
 using W3_test.Repositories;
-using AutoMapper;
-using W3_test.Domain.DTOs;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 
 namespace W3_test.Controllers
 {
@@ -20,24 +21,27 @@ namespace W3_test.Controllers
 		private readonly IMapper _mapper;
 		private readonly UserManager<AppUser> _userManager;
 		private readonly RoleManager<AppRole> _roleManager;
+        private readonly ILogger<AdminController> _logger;
+        public AdminController(
+        IBookRepository bookRepository,
+        IOrderRepository orderRepository,
+        IUserRepository userRepository,
+        IMapper mapper,
+        UserManager<AppUser> userManager,
+        RoleManager<AppRole> roleManager,
+        ILogger<AdminController> logger) 
+        {
+            _bookRepository = bookRepository;
+            _orderRepository = orderRepository;
+            _userRepository = userRepository;
+            _mapper = mapper;
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _logger = logger; 
+        }
 
-		public AdminController(
-			IBookRepository bookRepository,
-			IOrderRepository orderRepository,
-			IUserRepository userRepository,
-			IMapper mapper,
-			UserManager<AppUser> userManager,
-			RoleManager<AppRole> roleManager)
-		{
-			_bookRepository = bookRepository;
-			_orderRepository = orderRepository;
-			_userRepository = userRepository;
-			_mapper = mapper;
-			_userManager = userManager;
-			_roleManager = roleManager;
-		}
 
-		public IActionResult Index() => View();
+        public IActionResult Index() => View();
 
 		// BOOKS
 		public async Task<IActionResult> ManageBooks()
@@ -46,56 +50,94 @@ namespace W3_test.Controllers
 			var bookModels = _mapper.Map<IEnumerable<BookDTO>>(books);
 			return View(bookModels);
 		}
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public IActionResult CreateBook()
+        {
+            return View();
+        }
 
-		[HttpGet]
-		
-		public IActionResult CreateBook() => View();
 
-		[HttpPost]
-		[Authorize(Roles = "Admin")]
-		public async Task<IActionResult> CreateBook(Book model, IFormFile ImageFile)
-		{
-			if (!ModelState.IsValid)
-				return View(model);
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> CreateBook(BookDTO model, IFormFile imageFile)
+        {
+            ModelState.Remove("ImageUrl"); 
 
-			try
-			{
-				if (ImageFile != null && ImageFile.Length > 0)
-				{
-					var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
-					var fileExtension = Path.GetExtension(ImageFile.FileName).ToLower();
-					if (!allowedExtensions.Contains(fileExtension))
-					{
-						ModelState.AddModelError("ImageFile", "Only image files (.jpg, .jpeg, .png, .gif) are allowed.");
-						return View(model);
-					}
+            _logger.LogInformation($"Received: Title={model?.Title}, Author={model?.Author}, Description={model?.Description}, Price={model?.Price}, Stock={model?.Stock}, Category={model?.Category}, ImageFile={imageFile?.FileName}");
 
-					var imagesDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-					if (!Directory.Exists(imagesDir))
-						Directory.CreateDirectory(imagesDir);
+            if (imageFile == null || imageFile.Length == 0)
+            {
+                ModelState.AddModelError("imageFile", "Vui lòng chọn một tệp hình ảnh.");
+            }
 
-					var filePath = Path.Combine(imagesDir, ImageFile.FileName);
-					using (var stream = new FileStream(filePath, FileMode.Create))
-					{
-						await ImageFile.CopyToAsync(stream);
-					}
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                _logger.LogWarning("ModelState invalid: {Errors}", string.Join(", ", errors));
+                return View(model);
+            }
 
-					model.ImageUrl = "/images/" + ImageFile.FileName;
-				}
+            try
+            {
+                var maxFileSize = 5 * 1024 * 1024;
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                var allowedContentTypes = new[] { "image/jpeg", "image/png", "image/gif" };
+                var fileExtension = Path.GetExtension(imageFile.FileName).ToLower();
 
-				var bookEntity = _mapper.Map<BookEntity>(model);
-				await _bookRepository.AddAsync(bookEntity);
-				return RedirectToAction("ManageBooks");
-			}
-			catch (Exception ex)
-			{
-				ModelState.AddModelError(string.Empty, $"An error occurred: {ex.Message}");
-				return View(model);
-			}
-		}
+                if (!allowedExtensions.Contains(fileExtension) || !allowedContentTypes.Contains(imageFile.ContentType))
+                {
+                    ModelState.AddModelError("imageFile", "Chỉ cho phép tệp hình ảnh (.jpg, .jpeg, .png, .gif).");
+                    _logger.LogWarning("Invalid file extension or content type: {FileName}", imageFile.FileName);
+                    return View(model);
+                }
 
-		[HttpGet]
-		public async Task<IActionResult> EditBook(Guid id)
+                if (imageFile.Length > maxFileSize)
+                {
+                    ModelState.AddModelError("imageFile", "Kích thước tệp không được vượt quá 5MB.");
+                    _logger.LogWarning("File too large: {FileSize} bytes", imageFile.Length);
+                    return View(model);
+                }
+
+                var imagesDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                if (!Directory.Exists(imagesDir))
+                {
+                    Directory.CreateDirectory(imagesDir);
+                }
+
+                var fileName = Guid.NewGuid().ToString() + fileExtension;
+                var filePath = Path.Combine(imagesDir, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                // Cập nhật ImageUrl trong DTO
+                model.ImageUrl = "/images/" + fileName;
+                _logger.LogInformation("Image saved: {ImageUrl}", model.ImageUrl);
+
+                // Map DTO sang entity trước khi thêm
+                var bookEntity = _mapper.Map<BookEntity>(model);
+                await _bookRepository.AddAsync(bookEntity);
+
+                TempData["SuccessMessage"] = "Sách đã được tạo thành công!";
+                return RedirectToAction("ManageBooks");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Lỗi khi tạo sách");
+                ModelState.AddModelError(string.Empty, "Đã xảy ra lỗi khi tạo sách. Vui lòng thử lại.");
+                return View(model);
+            }
+        }
+
+
+
+
+        [HttpGet]
+        
+        public async Task<IActionResult> EditBook(Guid id)
 		{
 			var bookEntity = await _bookRepository.GetByIdAsync(id);
 			if (bookEntity == null) return NotFound();
@@ -105,7 +147,8 @@ namespace W3_test.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> EditBook(Book model)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> EditBook(Book model)
 		{
 			if (!ModelState.IsValid) return View(model);
 
@@ -116,9 +159,9 @@ namespace W3_test.Controllers
 			await _bookRepository.UpdateAsync(bookEntity);
 			return RedirectToAction("ManageBooks");
 		}
-
-		[HttpPost]
-		[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+		  
 		public async Task<IActionResult> DeleteBook(Guid id)
 		{
 			var success = await _bookRepository.DeleteAsync(id);
@@ -167,13 +210,25 @@ namespace W3_test.Controllers
 			var success = await _orderRepository.DeleteAsync(id);
 			return success ? RedirectToAction("ManageOrders") : NotFound();
 		}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult PlaceOrder(CheckoutViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
 
+            // Xử lý lưu đơn hàng...
+
+            return RedirectToAction("OrderConfirmation");
+        }
         // USERS
         public async Task<IActionResult> ManageUsers(string query)
         {
             var users = await _userRepository.GetAllAsync();
 
-            string originalQuery = query; // Giữ lại chuỗi gốc để truyền vào ViewData
+            string originalQuery = query; 
 
             if (!string.IsNullOrEmpty(query))
             {
@@ -219,7 +274,7 @@ namespace W3_test.Controllers
 
             var userRoles = await _userManager.GetRolesAsync(appUser);
             var allRoles = await _roleManager.Roles
-                .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
                 .ToListAsync();
 
             var model = new EditUserViewModel
@@ -244,7 +299,7 @@ namespace W3_test.Controllers
             if (!ModelState.IsValid)
             {
                 var allRoles = await _roleManager.Roles
-                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
                     .ToListAsync();
 
                 model.AllRoles = allRoles.Select(r => new SelectListItem
@@ -273,7 +328,7 @@ namespace W3_test.Controllers
 
                 
                 var allRoles = await _roleManager.Roles
-                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Khách hàng")
+                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
                     .ToListAsync();
 
                 model.AllRoles = allRoles.Select(r => new SelectListItem

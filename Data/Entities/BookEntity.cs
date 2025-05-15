@@ -23,7 +23,7 @@ namespace W3_test.Data.Entities
 		[Required]
 		public string Category { get; set; }
 		public string Description { get; set; }
-		public string ImageUrl { get; set; }
+		public string? ImageUrl { get; set; }
 		public ICollection<CartItemEntity> CartItems { get; set; } = new List<CartItemEntity>();
 		public ICollection<OrderItemEntity> OrderItems { get; set; } = new List<OrderItemEntity>();
 		
