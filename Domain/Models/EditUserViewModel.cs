@@ -13,6 +13,7 @@ namespace W3_test.Domain.Models
         public List<SelectListItem> AllRoles { get; set; } = new();
         public List<PermissionItemViewModel> Permissions { get; set; } = new();
         public List<PermissionItemViewModel> AllPermissions { get; set; } = new();
+        public bool CanEditPermissions { get; set; } 
     }
 
 }

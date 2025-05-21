@@ -69,7 +69,7 @@
                 <td>$@book.Price</td>
                 <td>@book.Category</td>
                 <td>
-                    <a asp-controller="Admin" asp-action="EditBook" asp-route-id="@book.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-controller="Admin" asp-action="UpdateBook" asp-route-id="@book.Id" class="btn btn-warning btn-sm">Edit</a>
 
                     @* ✅ Chỉ Admin mới thấy nút Xóa *@
                     @if (User.IsInRole("Admin"))

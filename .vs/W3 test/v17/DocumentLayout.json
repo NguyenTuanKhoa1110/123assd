@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "D:\\git\\123assd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\permissionitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -147,24 +171,12 @@
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\data\\entities\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:data\\entities\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,24 +203,12 @@
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\cart\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -278,33 +278,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\git\\123assd\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAADwv0YBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T04:12:05.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditBook.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditBook.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditBook.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditBook.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAADgvyIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T07:13:27.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageOrders.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageOrders.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageOrders.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageOrders.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvygAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T09:42:06.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAADgvycAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T04:08:24.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T03:36:39.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T02:32:44.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\EditUserViewModel.cs",
               "ToolTip": "D:\\git\\123assd\\Domain\\Models\\EditUserViewModel.cs",
               "RelativeToolTip": "Domain\\Models\\EditUserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T06:25:38.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\git\\123assd\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAD8BAAAAAAAAAAAAwFABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:12:05.608Z",
+              "DocumentIndex": 7,
+              "Title": "ManageBooks.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageBooks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageBooks.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageBooks.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageBooks.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAADgv0oAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:07:48.564Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\git\\123assd\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T03:35:58.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\git\\123assd\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwHkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T03:13:05.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\git\\123assd\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\git\\123assd\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T02:41:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\git\\123assd\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T02:58:17.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PermissionItemViewModel.cs",
+              "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\PermissionItemViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PermissionItemViewModel.cs",
+              "ToolTip": "D:\\git\\123assd\\Domain\\Models\\PermissionItemViewModel.cs",
+              "RelativeToolTip": "Domain\\Models\\PermissionItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:24:53.085Z"
             },
             {
               "$type": "Document",
@@ -320,59 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T02:32:44.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PermissionItemViewModel.cs",
-              "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\PermissionItemViewModel.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\PermissionItemViewModel.cs",
-              "ToolTip": "D:\\git\\123assd\\Domain\\Models\\PermissionItemViewModel.cs",
-              "RelativeToolTip": "Domain\\Models\\PermissionItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:24:53.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditBook.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditBook.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\EditBook.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditBook.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditBook.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T07:13:27.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "D:\\git\\123assd\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T02:58:17.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "CheckOutViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\CheckOutViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\CheckOutViewModel.cs",
@@ -384,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "AppRole.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\AppRole.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\AppRole.cs",
@@ -396,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\RegisterViewModel.cs",
@@ -408,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -420,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ResetPasswordViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\ResetPasswordViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ResetPasswordViewModel.cs",
@@ -432,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Permissions.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\Permissions.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Permissions.cs",
@@ -444,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "OrderDetails.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Order\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\OrderDetails.cshtml",
@@ -456,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "RolePermission.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\RolePermission.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\RolePermission.cs",
@@ -468,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Permission.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\Permission.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Permission.cs",
@@ -480,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -492,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
@@ -504,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
@@ -516,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -528,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "UserPermission.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\UserPermission.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\UserPermission.cs",
@@ -540,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "AppUserDTO.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\DTOs\\AppUserDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\AppUserDTO.cs",
@@ -552,19 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ManageOrders.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageOrders.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageOrders.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageOrders.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageOrders.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T09:42:06.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "CreateBook.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\CreateBook.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\CreateBook.cshtml",
@@ -576,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "EditProfile.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\EditProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\EditProfile.cshtml",
@@ -588,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Profiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\MappingProfile.cs",
@@ -600,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Data\\Entities\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\SeedData.cs",
@@ -612,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Book.cs",
@@ -624,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
@@ -636,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -648,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "OrderItems.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\OrderItems.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\OrderItems.cs",
@@ -660,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "NavBar.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Shared\\NavBar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\NavBar.cshtml",
@@ -672,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -684,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "BookEntity.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Data\\Entities\\BookEntity.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\BookEntity.cs",
@@ -696,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\git\\123assd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -708,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -720,19 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Profile\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Profile\\Index.cshtml",
-              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T03:36:39.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\DTOs\\BookDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\BookDTO.cs",
@@ -744,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Cart.cs",
@@ -756,19 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ManageBooks.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageBooks.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageBooks.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageBooks.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageBooks.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T04:07:48.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
@@ -780,19 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T02:41:39.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "ForgotPasswordViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\ForgotPasswordViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ForgotPasswordViewModel.cs",
@@ -804,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ForgotPassword.cshtml",
@@ -816,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ChangePasswordViewModel.cs",
@@ -828,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
@@ -840,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
@@ -852,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "AddToCart.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Cart\\AddToCart.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\AddToCart.cshtml",
@@ -864,31 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "D:\\git\\123assd\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwJ0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:13:05.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ManageUsers.cshtml",
-              "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\ManageUsers.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageUsers.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\ManageUsers.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageUsers.cshtml",
-              "ViewState": "AgIAAB4AAAAAchzHcZwpwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T04:08:24.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
@@ -900,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -909,18 +926,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T14:42:45.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\git\\123assd\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\git\\123assd\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:35:58.731Z"
             },
             {
               "$type": "Document",
