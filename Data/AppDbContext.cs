@@ -15,8 +15,10 @@ namespace W3_test.Data
 		public DbSet<CartItemEntity> CartItems { get; set; }
 		public DbSet<OrderEntity> Orders { get; set; }
 		public DbSet<OrderItemEntity> OrderItems { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
+        public DbSet<RolePermission> RolePermissions { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder); 
 
@@ -53,13 +55,21 @@ namespace W3_test.Data
 			modelBuilder.Entity<BookEntity>()
 			.Property(b => b.Price)
 			.HasPrecision(18, 2);
-			//modelBuilder.Entity<BookEntity>()
-			  // .Property(b => b.RowVersion)
-			   //.IsRowVersion();  
 
-			//modelBuilder.Entity<OrderEntity>()
-				//.Property(o => o.RowVersion)
-				//.IsRowVersion();
-		}
-	}
+            modelBuilder.Entity<RolePermission>()
+				.HasKey(rp => new { rp.RoleId, rp.PermissionId });
+
+            modelBuilder.Entity<RolePermission>()
+                .HasOne(rp => rp.Role)
+                .WithMany(r => r.RolePermissions)
+                .HasForeignKey(rp => rp.RoleId);
+
+            modelBuilder.Entity<RolePermission>()
+                .HasOne(rp => rp.Permission)
+                .WithMany(p => p.RolePermissions)
+                .HasForeignKey(rp => rp.PermissionId);
+
+
+        }
+    }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("W3 test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f72bbb08d5a7c2430f144efb5e9a6bbc66971ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac18ebe00b2bcaa7a9368a97e42b997bf2ab7a93")]
 [assembly: System.Reflection.AssemblyProductAttribute("W3 test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("W3 test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

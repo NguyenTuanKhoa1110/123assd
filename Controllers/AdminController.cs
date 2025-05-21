@@ -5,6 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 using W3_test.Data.Entities;
 using W3_test.Domain.DTOs;
 using W3_test.Domain.Models;
@@ -12,24 +17,25 @@ using W3_test.Repositories;
 
 namespace W3_test.Controllers
 {
-	[Authorize(Roles = "Admin,Staff")]
-	public class AdminController : Controller
-	{
-		private readonly IBookRepository _bookRepository;
-		private readonly IOrderRepository _orderRepository;
-		private readonly IUserRepository _userRepository;
-		private readonly IMapper _mapper;
-		private readonly UserManager<AppUser> _userManager;
-		private readonly RoleManager<AppRole> _roleManager;
+    [Authorize(Roles = "Admin,Staff")]
+    public class AdminController : Controller
+    {
+        private readonly IBookRepository _bookRepository;
+        private readonly IOrderRepository _orderRepository;
+        private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly RoleManager<AppRole> _roleManager;
         private readonly ILogger<AdminController> _logger;
+
         public AdminController(
-        IBookRepository bookRepository,
-        IOrderRepository orderRepository,
-        IUserRepository userRepository,
-        IMapper mapper,
-        UserManager<AppUser> userManager,
-        RoleManager<AppRole> roleManager,
-        ILogger<AdminController> logger) 
+            IBookRepository bookRepository,
+            IOrderRepository orderRepository,
+            IUserRepository userRepository,
+            IMapper mapper,
+            UserManager<AppUser> userManager,
+            RoleManager<AppRole> roleManager,
+            ILogger<AdminController> logger)
         {
             _bookRepository = bookRepository;
             _orderRepository = orderRepository;
@@ -37,19 +43,19 @@ namespace W3_test.Controllers
             _mapper = mapper;
             _userManager = userManager;
             _roleManager = roleManager;
-            _logger = logger; 
+            _logger = logger;
         }
-
 
         public IActionResult Index() => View();
 
-		// BOOKS
-		public async Task<IActionResult> ManageBooks()
-		{
-			var books = await _bookRepository.GetAllAsync();
-			var bookModels = _mapper.Map<IEnumerable<BookDTO>>(books);
-			return View(bookModels);
-		}
+        // ----- BOOKS -----
+        public async Task<IActionResult> ManageBooks()
+        {
+            var books = await _bookRepository.GetAllAsync();
+            var bookDtos = _mapper.Map<IEnumerable<BookDTO>>(books);
+            return View(bookDtos);
+        }
+
         [HttpGet]
         [Authorize(Roles = "Admin")]
         public IActionResult CreateBook()
@@ -57,14 +63,13 @@ namespace W3_test.Controllers
             return View();
         }
 
-
         [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateBook(BookDTO model, IFormFile imageFile)
         {
-            ModelState.Remove("ImageUrl"); 
+            ModelState.Remove("ImageUrl");
 
-            _logger.LogInformation($"Received: Title={model?.Title}, Author={model?.Author}, Description={model?.Description}, Price={model?.Price}, Stock={model?.Stock}, Category={model?.Category}, ImageFile={imageFile?.FileName}");
+            _logger.LogInformation("Received book creation request: Title={Title}, Author={Author}, ImageFile={ImageFile}", model?.Title, model?.Author, imageFile?.FileName);
 
             if (imageFile == null || imageFile.Length == 0)
             {
@@ -74,55 +79,53 @@ namespace W3_test.Controllers
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-                _logger.LogWarning("ModelState invalid: {Errors}", string.Join(", ", errors));
+                _logger.LogWarning("Model state invalid: {Errors}", string.Join(", ", errors));
                 return View(model);
             }
 
             try
             {
-                var maxFileSize = 5 * 1024 * 1024;
+                const int maxFileSize = 5 * 1024 * 1024;
                 var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
                 var allowedContentTypes = new[] { "image/jpeg", "image/png", "image/gif" };
-                var fileExtension = Path.GetExtension(imageFile.FileName).ToLower();
+                var fileExtension = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
 
                 if (!allowedExtensions.Contains(fileExtension) || !allowedContentTypes.Contains(imageFile.ContentType))
                 {
                     ModelState.AddModelError("imageFile", "Chỉ cho phép tệp hình ảnh (.jpg, .jpeg, .png, .gif).");
-                    _logger.LogWarning("Invalid file extension or content type: {FileName}", imageFile.FileName);
+                    _logger.LogWarning("Invalid image file extension or content type: {FileName}", imageFile.FileName);
                     return View(model);
                 }
 
                 if (imageFile.Length > maxFileSize)
                 {
                     ModelState.AddModelError("imageFile", "Kích thước tệp không được vượt quá 5MB.");
-                    _logger.LogWarning("File too large: {FileSize} bytes", imageFile.Length);
+                    _logger.LogWarning("Image file too large: {FileSize} bytes", imageFile.Length);
                     return View(model);
                 }
 
-                var imagesDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-                if (!Directory.Exists(imagesDir))
+                var imagesPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                if (!Directory.Exists(imagesPath))
                 {
-                    Directory.CreateDirectory(imagesDir);
+                    Directory.CreateDirectory(imagesPath);
                 }
 
-                var fileName = Guid.NewGuid().ToString() + fileExtension;
-                var filePath = Path.Combine(imagesDir, fileName);
+                var fileName = Guid.NewGuid() + fileExtension;
+                var fullPath = Path.Combine(imagesPath, fileName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                using (var stream = new FileStream(fullPath, FileMode.Create))
                 {
                     await imageFile.CopyToAsync(stream);
                 }
 
-                // Cập nhật ImageUrl trong DTO
                 model.ImageUrl = "/images/" + fileName;
-                _logger.LogInformation("Image saved: {ImageUrl}", model.ImageUrl);
+                _logger.LogInformation("Image saved at {ImageUrl}", model.ImageUrl);
 
-                // Map DTO sang entity trước khi thêm
                 var bookEntity = _mapper.Map<BookEntity>(model);
                 await _bookRepository.AddAsync(bookEntity);
 
                 TempData["SuccessMessage"] = "Sách đã được tạo thành công!";
-                return RedirectToAction("ManageBooks");
+                return RedirectToAction(nameof(ManageBooks));
             }
             catch (Exception ex)
             {
@@ -132,84 +135,85 @@ namespace W3_test.Controllers
             }
         }
 
-
-
-
         [HttpGet]
-        
         public async Task<IActionResult> EditBook(Guid id)
-		{
-			var bookEntity = await _bookRepository.GetByIdAsync(id);
-			if (bookEntity == null) return NotFound();
+        {
+            var bookEntity = await _bookRepository.GetByIdAsync(id);
+            if (bookEntity == null) return NotFound();
 
-			var bookDto = _mapper.Map<BookDTO>(bookEntity);
-			return View(bookDto);
-		}
+            var bookDto = _mapper.Map<BookDTO>(bookEntity);
+            return View(bookDto);
+        }
 
-		[HttpPost]
+        [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> EditBook(Book model)
-		{
-			if (!ModelState.IsValid) return View(model);
+        {
+            if (!ModelState.IsValid) return View(model);
 
-			var bookEntity = await _bookRepository.GetByIdAsync(model.Id);
-			if (bookEntity == null) return NotFound();
+            var bookEntity = await _bookRepository.GetByIdAsync(model.Id);
+            if (bookEntity == null) return NotFound();
 
-			_mapper.Map(model, bookEntity);
-			await _bookRepository.UpdateAsync(bookEntity);
-			return RedirectToAction("ManageBooks");
-		}
-        [Authorize(Roles = "Admin")]
+            _mapper.Map(model, bookEntity);
+            await _bookRepository.UpdateAsync(bookEntity);
+            return RedirectToAction(nameof(ManageBooks));
+        }
+
         [HttpPost]
-		  
-		public async Task<IActionResult> DeleteBook(Guid id)
-		{
-			var success = await _bookRepository.DeleteAsync(id);
-			return success ? RedirectToAction("ManageBooks") : NotFound();
-		}
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteBook(Guid id)
+        {
+            var success = await _bookRepository.DeleteAsync(id);
+            return success ? RedirectToAction(nameof(ManageBooks)) : NotFound();
+        }
 
-		// ORDERS
-		public async Task<IActionResult> ManageOrders(string status)
-		{
-			var orders = await _orderRepository.GetAllAsync();
-			if (!string.IsNullOrEmpty(status))
-				orders = orders.Where(o => o.Status == status);
+        // ----- ORDERS -----
+        public async Task<IActionResult> ManageOrders(string status)
+        {
+            var orders = await _orderRepository.GetAllAsync();
+            if (!string.IsNullOrEmpty(status))
+            {
+                orders = orders.Where(o => o.Status == status);
+            }
 
-			var orderModels = _mapper.Map<IEnumerable<OrderDTO>>(orders);
-			var statuses = new List<string> { "Pending", "Shipped", "Delivered", "Cancelled" };
-			ViewBag.statuses = new SelectList(statuses, status);
-			return View(orderModels);
-		}
+            var orderDtos = _mapper.Map<IEnumerable<OrderDTO>>(orders);
 
-		[HttpGet]
-		public async Task<IActionResult> EditOrder(Guid id)
-		{
-			var orderEntity = await _orderRepository.GetByIdAsync(id);
-			if (orderEntity == null) return NotFound();
+            var statuses = new List<string> { "Pending", "Shipped", "Delivered", "Cancelled" };
+            ViewBag.Statuses = new SelectList(statuses, status);
 
-			var orderModel = _mapper.Map<OrderDTO>(orderEntity);
-			return View(orderModel);
-		}
+            return View(orderDtos);
+        }
 
-		[HttpPost]
-		public async Task<IActionResult> EditOrder(OrderDTO model)
-		{
-			if (!ModelState.IsValid) return View(model);
+        [HttpGet]
+        public async Task<IActionResult> EditOrder(Guid id)
+        {
+            var orderEntity = await _orderRepository.GetByIdAsync(id);
+            if (orderEntity == null) return NotFound();
 
-			var orderEntity = await _orderRepository.GetByIdAsync(model.Id);
-			if (orderEntity == null) return NotFound();
+            var orderDto = _mapper.Map<OrderDTO>(orderEntity);
+            return View(orderDto);
+        }
 
-			_mapper.Map(model, orderEntity);
-			await _orderRepository.UpdateAsync(orderEntity);
-			return RedirectToAction("ManageOrders");
-		}
+        [HttpPost]
+        public async Task<IActionResult> EditOrder(OrderDTO model)
+        {
+            if (!ModelState.IsValid) return View(model);
 
-		[HttpPost]
-		public async Task<IActionResult> DeleteOrder(Guid id)
-		{
-			var success = await _orderRepository.DeleteAsync(id);
-			return success ? RedirectToAction("ManageOrders") : NotFound();
-		}
+            var orderEntity = await _orderRepository.GetByIdAsync(model.Id);
+            if (orderEntity == null) return NotFound();
+
+            _mapper.Map(model, orderEntity);
+            await _orderRepository.UpdateAsync(orderEntity);
+            return RedirectToAction(nameof(ManageOrders));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteOrder(Guid id)
+        {
+            var success = await _orderRepository.DeleteAsync(id);
+            return success ? RedirectToAction(nameof(ManageOrders)) : NotFound();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult PlaceOrder(CheckoutViewModel model)
@@ -219,33 +223,33 @@ namespace W3_test.Controllers
                 return View(model);
             }
 
-            // Xử lý lưu đơn hàng...
+
 
             return RedirectToAction("OrderConfirmation");
         }
-        // USERS
+
+        // ----- USERS -----
         public async Task<IActionResult> ManageUsers(string query)
         {
             var users = await _userRepository.GetAllAsync();
 
-            string originalQuery = query; 
+            string originalQuery = query;
 
             if (!string.IsNullOrEmpty(query))
             {
-                string loweredQuery = query.ToLower();
+                var loweredQuery = query.ToLowerInvariant();
                 users = users.Where(u =>
-                    u.Username?.ToLower().Contains(loweredQuery) == true ||
-                    u.Email?.ToLower().Contains(loweredQuery) == true
-                );
+                    (u.UserName?.ToLowerInvariant().Contains(loweredQuery) ?? false) ||
+                    (u.Email?.ToLowerInvariant().Contains(loweredQuery) ?? false));
             }
 
-            var userModels = _mapper.Map<IEnumerable<AppUserDTO>>(users);
+            var userDtos = _mapper.Map<IEnumerable<AppUserDTO>>(users);
 
-            // Load tất cả roles
+            // Load all roles
             var roles = await _roleManager.Roles.ToListAsync();
             ViewBag.Roles = roles;
 
-            // Load role hiện tại của từng user
+            // Load current roles of each user
             var userRolesDict = new Dictionary<Guid, string>();
             foreach (var user in users)
             {
@@ -258,173 +262,113 @@ namespace W3_test.Controllers
             }
             ViewBag.UserRoles = userRolesDict;
 
-            ViewData["SearchQuery"] = originalQuery; 
-            return View(userModels);
+            ViewData["SearchQuery"] = originalQuery;
+            return View(userDtos);
         }
-
 
         [HttpGet]
         public async Task<IActionResult> EditUser(Guid id)
         {
-            var user = await _userRepository.GetByIdAsync(id);
-            if (user == null) return NotFound();
+            var userEntity = await _userRepository.GetByIdAsync(id);
+            if (userEntity == null) return NotFound();
 
-            var appUser = await _userManager.FindByIdAsync(user.Id.ToString());
+            var appUser = await _userManager.FindByIdAsync(userEntity.Id.ToString());
             if (appUser == null) return NotFound();
 
             var userRoles = await _userManager.GetRolesAsync(appUser);
             var allRoles = await _roleManager.Roles
-                .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
+                .Where(r => r.Name == "Admin" || r.Name == "Staff")
                 .ToListAsync();
 
+            var userClaims = await _userManager.GetClaimsAsync(appUser);
+            var allPermissions = GetAllPermissions();
+            var isAdmin = userRoles.Contains("Admin");
             var model = new EditUserViewModel
             {
-                Id = user.Id,
-                Username = user.Username,
-                Email = user.Email,
-                SelectedRole = userRoles.FirstOrDefault(), // chỉ lấy 1
+                Id = userEntity.Id,
+                Username = userEntity.UserName,
+                Email = userEntity.Email,
+                SelectedRole = userRoles.FirstOrDefault(),
                 AllRoles = allRoles.Select(r => new SelectListItem
                 {
                     Value = r.Name,
-                    Text = r.Name,
-                    Selected = userRoles.Contains(r.Name)
+                    Text = r.Name
+                }).ToList(),
+                AllPermissions = allPermissions.Select(p => new PermissionItemViewModel
+                {
+                    Name = p,
+                    IsAssigned = userClaims.Any(c => c.Type == "Permission" && c.Value == p)
                 }).ToList()
             };
 
             return View(model);
         }
 
-        public async Task<IActionResult> EditUser(EditUserViewModel model)
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditUser(EditUserViewModel model, string[] SelectedPermissions)
         {
             if (!ModelState.IsValid)
             {
-                var allRoles = await _roleManager.Roles
-                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
+                // Nạp lại dữ liệu nếu có lỗi nhập
+                model.AllRoles = await _roleManager.Roles
+                    .Where(r => r.Name == "Admin" || r.Name == "Staff")
+                    .Select(r => new SelectListItem { Value = r.Name, Text = r.Name })
                     .ToListAsync();
 
-                model.AllRoles = allRoles.Select(r => new SelectListItem
+                var allPermissions = GetAllPermissions();
+                model.AllPermissions = allPermissions.Select(p => new PermissionItemViewModel
                 {
-                    Value = r.Name,
-                    Text = r.Name,
-                    Selected = r.Name == model.SelectedRole
+                    Name = p,
+                    IsAssigned = SelectedPermissions.Contains(p)
                 }).ToList();
 
                 return View(model);
             }
 
-            var user = await _userManager.FindByIdAsync(model.Id.ToString());
-            if (user == null) return NotFound();
+            var appUser = await _userManager.FindByIdAsync(model.Id.ToString());
+            if (appUser == null) return NotFound();
 
-            user.UserName = model.Username;
-            user.Email = model.Email;
+            // Cập nhật role
+            var currentRoles = await _userManager.GetRolesAsync(appUser);
+            await _userManager.RemoveFromRolesAsync(appUser, currentRoles);
+            await _userManager.AddToRoleAsync(appUser, model.SelectedRole);
 
-            var updateResult = await _userManager.UpdateAsync(user);
-            if (!updateResult.Succeeded)
+            // Cập nhật claims
+            var currentClaims = await _userManager.GetClaimsAsync(appUser);
+            foreach (var claim in currentClaims.Where(c => c.Type == "Permission"))
             {
-                foreach (var error in updateResult.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
-
-                
-                var allRoles = await _roleManager.Roles
-                    .Where(r => r.Name == "Admin" || r.Name == "Staff" || r.Name == "Customer")
-                    .ToListAsync();
-
-                model.AllRoles = allRoles.Select(r => new SelectListItem
-                {
-                    Value = r.Name,
-                    Text = r.Name,
-                    Selected = r.Name == model.SelectedRole
-                }).ToList();
-
-                return View(model);
+                await _userManager.RemoveClaimAsync(appUser, claim);
             }
 
-            
-            var currentRoles = await _userManager.GetRolesAsync(user);
-
-            
-            if (!currentRoles.Contains(model.SelectedRole) || currentRoles.Count != 1)
+            foreach (var permission in SelectedPermissions ?? Array.Empty<string>())
             {
-                await _userManager.RemoveFromRolesAsync(user, currentRoles);
-                await _userManager.AddToRoleAsync(user, model.SelectedRole);
+                await _userManager.AddClaimAsync(appUser, new System.Security.Claims.Claim("Permission", permission));
             }
 
-            TempData["Message"] = "User updated successfully.";
-            return RedirectToAction("ManageUsers");
+            TempData["SuccessMessage"] = "Cập nhật người dùng thành công.";
+            return RedirectToAction(nameof(ManageUsers));
         }
-
 
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(Guid id)
         {
-            var user = await _userManager.FindByIdAsync(id.ToString());
-            if (user == null) return NotFound();
-
-            var result = await _userManager.DeleteAsync(user);
-            if (!result.Succeeded)
-            {
-                TempData["Error"] = "Failed to delete user.";
-                return RedirectToAction("EditUser", new { id });
-            }
-
-            TempData["Message"] = "User deleted successfully.";
-            return RedirectToAction("ManageUsers");
+            var success = await _userRepository.DeleteAsync(id);
+            return success ? RedirectToAction(nameof(ManageUsers)) : NotFound();
         }
-
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> AssignRole(Guid userId, string roleName)
+    
+         private List<string> GetAllPermissions()
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
-            if (user == null)
-            {
-                TempData["Error"] = "User not found.";
-                return RedirectToAction(nameof(ManageUsers));
-            }
+            return new List<string>
+        {
+            "Book.Create", "Book.Read", "Book.Update", "Book.Delete",
+        "Order.View", "Order.Update",
+        "User.Manage"
 
-            
-            if (user.Id.ToString() == _userManager.GetUserId(User))
-            {
-                TempData["Error"] = "You cannot change your own role.";
-                return RedirectToAction(nameof(ManageUsers));
-            }
-
-            if (string.IsNullOrWhiteSpace(roleName) || !await _roleManager.RoleExistsAsync(roleName))
-            {
-                TempData["Error"] = "Invalid or missing role.";
-                return RedirectToAction(nameof(ManageUsers));
-            }
-
-            var currentRoles = await _userManager.GetRolesAsync(user);
-
-            if (currentRoles.Contains(roleName) && currentRoles.Count == 1)
-            {
-                TempData["Message"] = "User already has the selected role.";
-                return RedirectToAction(nameof(ManageUsers));
-            }
-
-            // Xóa toàn bộ role cũ
-            var resultRemove = await _userManager.RemoveFromRolesAsync(user, currentRoles);
-            var resultAdd = await _userManager.AddToRoleAsync(user, roleName);
-
-            if (resultRemove.Succeeded && resultAdd.Succeeded)
-            {
-                TempData["Message"] = $"Successfully assigned role '{roleName}' to {user.Email}.";
-            }
-            else
-            {
-                TempData["Error"] = "Failed to update role.";
-            }
-
-            return RedirectToAction(nameof(ManageUsers));
+            };
         }
-
     }
-
-
 }
-

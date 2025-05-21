@@ -7,5 +7,6 @@ namespace W3_test.Domain.Models
 		public string Description { get; set; }
 		public AppRole() : base() { }
 		public AppRole(string roleName) : base(roleName) { }
-	}
+        public ICollection<RolePermission> RolePermissions { get; set; } = new List<RolePermission>();
+    }
 }

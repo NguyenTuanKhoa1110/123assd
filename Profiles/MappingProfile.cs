@@ -28,7 +28,7 @@ namespace W3_test.Profiles
 
 			
 			CreateMap<AppUser, AppUserDTO>()
-				.ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.UserName)) 
+				.ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.UserName)) 
 				.ReverseMap();
 		}
 	}

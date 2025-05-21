@@ -23,7 +23,7 @@ namespace W3_test.Repositories
 			return users.Select(user => new AppUserDTO
 			{
 				Id = user.Id,
-				Username = user.UserName,
+				UserName = user.UserName,
 				Email = user.Email
 			});
 		}
@@ -36,7 +36,7 @@ namespace W3_test.Repositories
 			return new AppUserDTO
 			{
 				Id = user.Id,
-				Username = user.UserName,
+				UserName = user.UserName,
 				Email = user.Email
 			};
 		}
@@ -49,7 +49,7 @@ namespace W3_test.Repositories
 			return new AppUserDTO
 			{
 				Id = user.Id,
-				Username = user.UserName,
+				UserName = user.UserName,
 				Email = user.Email
 			};
 		}
@@ -58,7 +58,7 @@ namespace W3_test.Repositories
 		{
 			var user = new AppUser
 			{
-				UserName = userDto.Username,
+				UserName = userDto.UserName,
 				Email = userDto.Email
 				
 			};
@@ -72,7 +72,7 @@ namespace W3_test.Repositories
 			var user = await _userManager.FindByIdAsync(userDto.Id.ToString());
 			if (user != null)
 			{
-				user.UserName = userDto.Username;
+				user.UserName = userDto.UserName;
 				user.Email = userDto.Email;
 				await _userManager.UpdateAsync(user);
 			}

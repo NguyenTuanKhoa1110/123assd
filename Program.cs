@@ -52,6 +52,7 @@ using (var scope = app.Services.CreateScope())
 
 	await SeedData.SeedRolesAsync(roleManager);
 	await SeedData.SeedAdminAsync(userManager, roleManager);
+	await SeedData.SeedStaffAsync(userManager);
 }
 
 if (!app.Environment.IsDevelopment())

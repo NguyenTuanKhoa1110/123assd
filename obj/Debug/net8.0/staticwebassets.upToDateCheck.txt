@@ -1,5 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\16bcd78a-778f-48a4-a7ed-84e2ce5f0cf2.jpg
+wwwroot\images\4b86026a-201b-4021-9c15-e2b7d2ded117.jpg
 wwwroot\images\8934974179672.jpg
 wwwroot\images\anybook-la-gi-su-khac-nhau-giau-any-book-va-any-books.jpg
 wwwroot\images\biểu đồ tuần tự.jpg

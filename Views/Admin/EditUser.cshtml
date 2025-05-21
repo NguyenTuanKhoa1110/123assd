@@ -1,4 +1,5 @@
-﻿@model W3_test.Domain.Models.EditUserViewModel
+﻿@using W3_test.Domain.Models
+@model EditUserViewModel
 
 <h2>Edit User</h2>
 
@@ -15,7 +16,7 @@
         <input asp-for="Email" class="form-control" readonly />
     </div>
 
-    @if (User.IsInRole("Admin"))
+    @if (User.HasClaim("Permission", Permissions.Users.ManageRoles))
     {
         <div class="form-group">
             <label for="SelectedRole">Role</label>
@@ -30,10 +31,37 @@
         </div>
     }
 
-    <button type="submit" class="btn btn-primary">Save</button>
+    <h4>Permissions</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Permission</th>
+                <th>Assigned</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.AllPermissions.Count; i++)
+            {
+                <tr>
+                    <td>@Model.AllPermissions[i].Name</td>
+                    <td>
+                        <input type="checkbox"
+                               asp-for="AllPermissions[@i].IsAssigned"
+                               class="form-check-input" />
+                        <input type="hidden" asp-for="AllPermissions[@i].Name" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (User.HasClaim("Permission", Permissions.Users.Edit))
+    {
+        <button type="submit" class="btn btn-primary">Save</button>
+    }
 </form>
 
-@if (User.IsInRole("Admin"))
+@if (User.HasClaim("Permission", Permissions.Users.Delete))
 {
     <form asp-action="DeleteUser" asp-route-id="@Model.Id" method="post" onsubmit="return confirm('Are you sure?');" style="margin-top:10px;">
         <button type="submit" class="btn btn-danger">Delete User</button>
