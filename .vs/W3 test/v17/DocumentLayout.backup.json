@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\admin\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:views\\admin\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|solutionrelative:domain\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D73A9CD-85F7-46D7-AE8E-C2066BEA952A}|W3 test.csproj|d:\\git\\123assd\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -288,14 +288,14 @@
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\git\\123assd\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC0BAAAAAAAAAADwv0YBAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T04:12:05.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EditBook.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditBook.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditBook.cshtml",
@@ -316,8 +316,7 @@
               "RelativeToolTip": "Views\\Admin\\ManageOrders.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAADgvygAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T09:42:06.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T09:42:06.511Z"
             },
             {
               "$type": "Document",
@@ -329,8 +328,7 @@
               "RelativeToolTip": "Views\\Admin\\ManageUsers.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAADgvycAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T04:08:24.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T04:08:24.389Z"
             },
             {
               "$type": "Document",
@@ -342,8 +340,7 @@
               "RelativeToolTip": "Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T03:36:39.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T03:36:39.291Z"
             },
             {
               "$type": "Document",
@@ -351,16 +348,16 @@
               "Title": "EditUser.cshtml",
               "DocumentMoniker": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
-              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvzMAAAA6AAAAAAAAAA==",
+              "ToolTip": "D:\\git\\123assd\\Views\\Admin\\EditUser.cshtml*",
+              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T02:32:44.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "D:\\git\\123assd\\Domain\\Models\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\EditUserViewModel.cs",
@@ -368,8 +365,7 @@
               "RelativeToolTip": "Domain\\Models\\EditUserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:25:38.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:25:38.484Z"
             },
             {
               "$type": "Document",
@@ -381,8 +377,7 @@
               "RelativeToolTip": "Views\\Admin\\ManageBooks.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAADgv0oAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T04:07:48.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T04:07:48.564Z"
             },
             {
               "$type": "Document",
@@ -394,8 +389,7 @@
               "RelativeToolTip": "Controllers\\ProfileController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAuwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:35:58.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T03:35:58.731Z"
             },
             {
               "$type": "Document",
@@ -407,8 +401,7 @@
               "RelativeToolTip": "Controllers\\CartController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAqwHkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:13:05.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T03:13:05.216Z"
             },
             {
               "$type": "Document",
@@ -420,8 +413,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T02:41:39.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T02:41:39.338Z"
             },
             {
               "$type": "Document",

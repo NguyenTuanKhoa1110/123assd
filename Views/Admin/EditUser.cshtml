@@ -30,32 +30,35 @@
             <input type="text" class="form-control" value="@Model.SelectedRole" disabled />
         </div>
     }
-    @if (Model.SelectedRole == "Admin")
+
+    @if (Model.CanEditPermissions)
     {
-    <h4>Permissions</h4>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Permission</th>
-                <th>Assigned</th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (int i = 0; i < Model.AllPermissions.Count; i++)
-            {
+        <h4>Permissions</h4>
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@Model.AllPermissions[i].Name</td>
-                    <td>
-                        <input type="checkbox"
-                               asp-for="AllPermissions[@i].IsAssigned"
-                               class="form-check-input" />
-                        <input type="hidden" asp-for="AllPermissions[@i].Name" />
-                    </td>
+                    <th>Permission</th>
+                    <th>Assigned</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
+            </thead>
+            <tbody>
+                @foreach (var permission in Model.AllPermissions)
+                {
+                    <tr>
+                        <td>@permission.Name</td>
+                        <td>
+                            <input type="checkbox"
+                                   name="SelectedPermissions"
+                                   value="@permission.Name"
+                                   @(permission.IsAssigned ? "checked" : "")
+                                   @(Model.CanEditPermissions ? "" : "disabled") />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
     @if (User.HasClaim("Permission", Permissions.Users.Edit))
     {
         <button type="submit" class="btn btn-primary">Save</button>

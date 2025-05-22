@@ -278,23 +278,23 @@ namespace W3_test.Controllers
 
             // Role của user đang được chỉnh sửa
             var userRoles = await _userManager.GetRolesAsync(appUser);
+            var selectedRoleName = userRoles.FirstOrDefault();
 
-            // Role của người đang đăng nhập
+            // Role của người đang đăng nhập (Admin?)
             var currentUser = await _userManager.GetUserAsync(User);
             var currentUserRoles = await _userManager.GetRolesAsync(currentUser);
             var isCurrentUserAdmin = currentUserRoles.Contains("Admin");
 
+            // Danh sách tất cả Role khả dụng
             var allRoles = await _roleManager.Roles
                 .Where(r => r.Name == "Admin" || r.Name == "Staff")
                 .ToListAsync();
 
+            // Lấy tất cả quyền mà user đang được gán trực tiếp
             var userClaims = await _userManager.GetClaimsAsync(appUser);
-            var allPermissions = GetAllPermissions();
 
             // Lấy quyền từ Role nếu có
-            var selectedRoleName = userRoles.FirstOrDefault();
             List<Claim> roleClaims = new();
-
             if (!string.IsNullOrEmpty(selectedRoleName))
             {
                 var role = await _roleManager.FindByNameAsync(selectedRoleName);
@@ -305,6 +305,18 @@ namespace W3_test.Controllers
                         .ToList();
                 }
             }
+
+            // Tổng hợp tất cả permission của hệ thống
+            var allPermissions = GetAllPermissions();
+
+            // Gán trạng thái IsAssigned
+            var permissionItems = allPermissions.Select(p => new PermissionItemViewModel
+            {
+                Name = p,
+                IsAssigned =
+                    userClaims.Any(c => c.Type == "Permission" && c.Value == p) ||
+                    roleClaims.Any(c => c.Type == "Permission" && c.Value == p)
+            }).ToList();
 
             var model = new EditUserViewModel
             {
@@ -317,13 +329,7 @@ namespace W3_test.Controllers
                     Value = r.Name,
                     Text = r.Name
                 }).ToList(),
-                AllPermissions = allPermissions.Select(p => new PermissionItemViewModel
-                {
-                    Name = p,
-                    IsAssigned =
-                        userClaims.Any(c => c.Type == "Permission" && c.Value == p) ||
-                        roleClaims.Any(c => c.Type == "Permission" && c.Value == p)
-                }).ToList(),
+                AllPermissions = permissionItems,
                 CanEditPermissions = isCurrentUserAdmin 
             };
 
@@ -337,7 +343,6 @@ namespace W3_test.Controllers
         {
             if (!ModelState.IsValid)
             {
-                // Nạp lại dữ liệu nếu có lỗi nhập
                 model.AllRoles = await _roleManager.Roles
                     .Where(r => r.Name == "Admin" || r.Name == "Staff")
                     .Select(r => new SelectListItem { Value = r.Name, Text = r.Name })
@@ -356,36 +361,50 @@ namespace W3_test.Controllers
             var appUser = await _userManager.FindByIdAsync(model.Id.ToString());
             if (appUser == null) return NotFound();
 
-            // Cập nhật role
+            // Cập nhật Role
             var currentRoles = await _userManager.GetRolesAsync(appUser);
-            await _userManager.RemoveFromRolesAsync(appUser, currentRoles);
-            await _userManager.AddToRoleAsync(appUser, model.SelectedRole);
+            if (currentRoles.Any())
+                await _userManager.RemoveFromRolesAsync(appUser, currentRoles);
 
-            // Lấy các claim từ role để so sánh
-            var roleClaims = new List<System.Security.Claims.Claim>();
-            var selectedRole = await _roleManager.FindByNameAsync(model.SelectedRole);
-            if (selectedRole != null)
+            if (!string.IsNullOrEmpty(model.SelectedRole))
+                await _userManager.AddToRoleAsync(appUser, model.SelectedRole);
+
+            // Xác định người chỉnh sửa hiện tại có phải là Admin không
+            var currentUser = await _userManager.GetUserAsync(User);
+            var currentUserRoles = await _userManager.GetRolesAsync(currentUser);
+            var isCurrentUserAdmin = currentUserRoles.Contains("Admin");
+
+            // Chỉ cập nhật permission nếu người chỉnh sửa là Admin
+            if (isCurrentUserAdmin)
             {
-                var claims = await _roleManager.GetClaimsAsync(selectedRole);
-                roleClaims = claims.Where(c => c.Type == "Permission").ToList();
-            }
-
-            // Xóa các claim Permission hiện tại của user
-            var currentUserClaims = await _userManager.GetClaimsAsync(appUser);
-            var permissionClaims = currentUserClaims.Where(c => c.Type == "Permission").ToList();
-
-            foreach (var claim in permissionClaims)
-            {
-                await _userManager.RemoveClaimAsync(appUser, claim);
-            }
-
-            // Chỉ thêm những quyền không có trong role
-            foreach (var permission in SelectedPermissions ?? Array.Empty<string>())
-            {
-                var alreadyInRole = roleClaims.Any(c => c.Type == "Permission" && c.Value == permission);
-                if (!alreadyInRole)
+                var roleClaims = new List<Claim>();
+                if (!string.IsNullOrEmpty(model.SelectedRole))
                 {
-                    await _userManager.AddClaimAsync(appUser, new System.Security.Claims.Claim("Permission", permission));
+                    var selectedRole = await _roleManager.FindByNameAsync(model.SelectedRole);
+                    if (selectedRole != null)
+                    {
+                        roleClaims = (await _roleManager.GetClaimsAsync(selectedRole))
+                            .Where(c => c.Type == "Permission").ToList();
+                    }
+                }
+
+                // Xóa tất cả claim Permission cũ của user
+                var currentClaims = await _userManager.GetClaimsAsync(appUser);
+                var permissionClaims = currentClaims.Where(c => c.Type == "Permission").ToList();
+
+                foreach (var claim in permissionClaims)
+                {
+                    await _userManager.RemoveClaimAsync(appUser, claim);
+                }
+
+                // Thêm lại claim không có trong Role
+                foreach (var permission in SelectedPermissions ?? Array.Empty<string>())
+                {
+                    bool isInRoleClaim = roleClaims.Any(c => c.Value == permission);
+                    if (!isInRoleClaim)
+                    {
+                        await _userManager.AddClaimAsync(appUser, new Claim("Permission", permission));
+                    }
                 }
             }
 
